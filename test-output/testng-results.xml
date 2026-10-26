@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-12T15:54:15 IST" name="Default suite" finished-at="2026-10-12T15:54:16 IST" duration-ms="1868">
+    <groups>
+    </groups>
+    <test started-at="2026-10-12T15:54:15 IST" name="Default test" finished-at="2026-10-12T15:54:16 IST" duration-ms="1868">
+      <class name="com.ninza.hrm.api.projecttest.ProjectTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@2aceadd4]" started-at="2026-10-12T15:54:14 IST" name="configBS" finished-at="2026-10-12T15:54:15 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="addSingleProjectWithCreated()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@2aceadd4]" started-at="2026-10-12T15:54:15 IST" name="addSingleProjectWithCreated" finished-at="2026-10-12T15:54:16 IST" duration-ms="1766" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreated -->
+        <test-method signature="createDuplicateProjectTest()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@2aceadd4]" started-at="2026-10-12T15:54:16 IST" name="createDuplicateProjectTest" finished-at="2026-10-12T15:54:16 IST" depends-on-methods="com.ninza.hrm.api.projecttest.ProjectTest.addSingleProjectWithCreated" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDuplicateProjectTest -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@2aceadd4]" started-at="2026-10-12T15:54:16 IST" name="configAS" finished-at="2026-10-12T15:54:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.ninza.hrm.api.projecttest.ProjectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
